@@ -5,7 +5,9 @@
     runs-on: ubuntu-latest
     steps:
       - name: print greeting 
-        run: echo "Hello world"
+        run: |         
+          echo "Hello world1111"
+          echo "Hello world2222"
       - name: print goodbye
         run: echo "Hello world"
         
